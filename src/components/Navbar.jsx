@@ -10,7 +10,7 @@ import profile from "../../public/profile.jpg";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between space-x-4 px-6 py-2">
+    <div className="flex justify-between space-x-4 px-6 py-2 fixed top-0 bg-white w-[100%]">
       <div className=" flex items-center space-x-4 ">
         <AiOutlineMenu className="text-xl cursor-pointer" />
         <img
