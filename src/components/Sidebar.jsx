@@ -162,7 +162,7 @@ export default function Sidebar() {
       <div className="space-y-0 items-center">
         {sidebaritems.map((item) => {
           return (
-            <div className="flex items-center space-x-6 hover:bg-gray-300 duration-300 rounded-xl p-1">
+            <div key={item.id} className="flex items-center space-x-6 hover:bg-gray-300 duration-300 rounded-xl p-1">
               <div className="text-xl cursor-pointer" > 
                 {item.icon}
               </div>
@@ -200,7 +200,7 @@ export default function Sidebar() {
         </div>
         {sidebaritems3.map((item) => {
           return (
-            <div className="flex items-center space-x-6 hover:bg-gray-300 duration-300 rounded-xl p-1">
+            <div key={item.id} className="flex items-center space-x-6 hover:bg-gray-300 duration-300 rounded-xl p-1">
               <div className="text-xl cursor-pointer" > 
                 {item.icon}
               </div>
@@ -218,7 +218,7 @@ export default function Sidebar() {
         </div>
         {sidebaritems4.map((item) => {
           return (
-            <div className="flex items-center space-x-6 hover:bg-gray-300 duration-300 rounded-xl p-1">
+            <div key={item.id} className="flex items-center space-x-6 hover:bg-gray-300 duration-300 rounded-xl p-1">
               <div className="text-xl cursor-pointer text-red-500" > 
                 {item.icon}
               </div>

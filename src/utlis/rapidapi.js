@@ -1,6 +1,6 @@
 const API_KEY = import.meta.env.VITE_YOUTUBE_API_KEY;
 const BASE_URL = "youtube138.p.rapidapi.com"
-
+import axios from "axios";
 const options = {
 	method: 'GET',
 	headers: {
